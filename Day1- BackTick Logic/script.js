@@ -37,7 +37,7 @@
 // });
 // document.getElementById("card").innerHTML = data;
 
-Example 4 — Create Dynamic List Using Loop
+// Example 4 — Create Dynamic List Using Loop
 
 let skills = ["HTML", "CSS", "JAVASCRIPT", "JQUERY"];
 
