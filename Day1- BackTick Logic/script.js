@@ -39,18 +39,31 @@
 
 // Example 4 — Create Dynamic List Using Loop
 
-let skills = ["HTML", "CSS", "JAVASCRIPT", "JQUERY"];
+// let skills = ["HTML", "CSS", "JAVASCRIPT", "JQUERY"];
 
-let listItem = "";
+// let listItem = "";
 
-skills.forEach((skill) => {
-  // console.log(skill);
+// skills.forEach((skill) => {
+//   // console.log(skill);
 
-  listItem += `
-     <ul>
-     <li>${skill}</li>
-     </ul>
-    `;
-});
+//   listItem += `
+//      <ul>
+//      <li>I am learning ${skill}.</li>
+//      </ul>
+//     `;
+// });
 
-document.getElementById("card").innerHTML = listItem;
+// document.getElementById("card").innerHTML = listItem;
+
+// Example 5 - Create my profile using javascript + backticks
+
+let name = "Rahul";
+let age = 25;
+
+document.getElementById("card").innerHTML = `
+<div class="container">
+<h1>I am  ${name}.</h1>
+<p>I am from Navsari</P>
+<button class="btn">View More</button>
+</div>
+`;
