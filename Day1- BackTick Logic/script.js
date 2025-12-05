@@ -63,7 +63,7 @@ let age = 25;
 document.getElementById("card").innerHTML = `
 <div class="container">
 <h1>I am  ${name}.</h1>
-<p>I am from Navsari</P>
+<p>I am ${age} years old.</P>
 <button class="btn">View More</button>
 </div>
 `;
