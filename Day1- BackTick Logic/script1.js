@@ -22,7 +22,6 @@ async function loadUsers() {
         <p><strong>Company:</strong>${user.company.name}</p>
         <p><strong>City:</strong>${user.city}</p>
         </div>
-
         `;
     });
 
