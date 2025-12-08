@@ -18,5 +18,29 @@
 // let discount = isMember ? 30 : 10;
 // console.log(discount);
 
+// Comparison Operator
+
+// console.log(5 == "5");
+// console.log(5 === "5");
+// console.log(8 >= 6);
+// console.log(8 <= 6);
+// console.log(3 != 3);
+// console.log(7 < 2);
+
+// string Operator
+
+// let a = "Hello";
+// let b = "Js";
+// let result = a + " " + b;
+// console.log(result);
+
+// let text = "Hi";
+// text += " Rahul.";
+// console.log(text);
+
+let name = "Rahul";
+let message = "Welcome " + name + "!";
+console.log(message);
+
 
 
