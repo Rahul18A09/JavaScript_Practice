@@ -103,12 +103,12 @@
 
 // 3. Average
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-let avg = (a +b)/2;
+// let avg = (a +b)/2;
 
-console.log(avg);
-console.log(`Average of ${a} and ${b} is ${avg}.`);
+// console.log(avg);
+// console.log(`Average of ${a} and ${b} is ${avg}.`);
 
 
