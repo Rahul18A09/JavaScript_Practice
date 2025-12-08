@@ -76,3 +76,39 @@
 // first += " Everyone";
 
 // console.log(first);
+
+// Strings & template literals
+
+// let user = "Rahul";
+// let a = 20;
+
+// console.log("Hello "+ user); //concatenation
+
+// console.log(`Hello ${user} ,your age is ${a}`); // Template literals
+
+// Other Example
+//1.
+// let x = 5, y = 7;
+
+// console.log(x + y); //12
+// console.log(x * y); //35
+
+// 2.
+
+// const name = "Rahul";
+// const sum = x + y;
+
+// const greeting = `Hello ${name}, sun is ${sum}.`;
+// console.log(greeting);
+
+// 3. Average
+
+let a = 10;
+let b = 20;
+
+let avg = (a +b)/2;
+
+console.log(avg);
+console.log(`Average of ${a} and ${b} is ${avg}.`);
+
+
