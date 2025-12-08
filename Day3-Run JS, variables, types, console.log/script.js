@@ -1,4 +1,4 @@
-console.log("Hello, Javascript!");
+// console.log("Hello, Javascript!");
 
 // Declare variables:
 
@@ -27,3 +27,52 @@ console.log("Hello, Javascript!");
 //6.Ternary Operators
 //7.Typeof Operators
 //8.Bitwise Operators
+
+
+// let a = 10;
+// let b = 3;
+
+// console.log(a+b);
+// console.log(a > b);
+// console.log(a == "10");
+// console.log(a === "10");
+// console.log(a >= 5 && b < 2);
+
+// example
+
+// 1 Logical Operators Example
+
+// let isLoggedIn = true;
+// let hasSubscription = false;
+
+// console.log(isLoggedIn  &&  hasSubscription);
+// console.log(isLoggedIn  ||  hasSubscription);
+// console.log(!isLoggedIn);
+
+//2 Ternary Operator Example
+
+// let age = 20;
+// let result = age >= 18 ? "Adult" : "Minor";
+// console.log(result);
+
+// 3 Comparison Operators Example
+
+// let x = 10;
+// let y = "10";
+
+// console.log( x == y); // true
+// console.log( x === y); // false
+// console.log( x > 5); // true
+// console.log( x <= 9); // false
+
+// 4 String Operators Example
+
+// let first = "Hello";
+// let second = "World";
+
+// let full = first + " " + second;
+// console.log(full); // Hello World
+
+// first += " Everyone";
+
+// console.log(first);
