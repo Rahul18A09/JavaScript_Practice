@@ -10,7 +10,7 @@
     // }
 
 
-    // if / else if / else
+//2. if / else if / else
 
         // let marks = 85;
 
@@ -28,5 +28,62 @@
            
         // }
 
-        
+
+//3. switch statement
+    // -> use when we check same variable for multiple cases
+
+    // let day = 7;
+
+    // switch (day){
+    //     case 1: console.log("Monday");
+    //     break;
+
+    //     case 2: console.log("Tuesday");
+    //     break;
+
+    //     case 3: console.log("Wednesday");
+    //     break;
+
+    //     case 4: console.log("Thursday");
+    //     break;
+
+    //     case 5: console.log("Friday");
+    //     break;
+
+    //     case 6: console.log("Saturday");
+    //     break;
+
+    //     default: console.log("Sorry!, Today is Holiday");
+      
+    // }
+
+// 4. Comparison & Logical Operators (Short recap)
+
+// Comparison
+
+// ==  // equal
+// === // Strict equal
+// != // not equal
+// !== // Strict not equal
+// > , < , >= , <= 
+
+// Logical
+
+// && and , || or, ! not
+
+// example
+
+// let age = 22;
+// let hasId = true;
+
+// if (age >= 18 || hasId){
+//     console.log("You can Enter.");
+    
+// }else {
+//     console.log("You can not enter.");
+    
+// }
+
+
+
     
