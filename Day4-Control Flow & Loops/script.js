@@ -84,6 +84,41 @@
     
 // }
 
+// 5. Loop
 
+// A. for loop
 
+// let i = 0;
+
+// for (i = 0; i <= 5 ; i++){
+//     console.log("The number is: " , i);
+  
+// }
+
+// B. While loop
+
+// let i = 1;
+
+// while (i <= 5){
+//     console.log(i);
+//     i++;   
+// }
+
+// C. do... while loop
+
+// let x =10;
+
+// do{
+//     console.log("Running once!");
+//     x++;
+    
+// }while (x <= 5);
+
+// D. for...of(best for arrays)
+
+// let fruits = ["apple", "banana", "mango","cherry"];
+
+// for (let fruit of fruits){
+//     console.log(fruits);    
+// }
     
