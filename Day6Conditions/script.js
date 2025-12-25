@@ -1,5 +1,17 @@
-let year = prompt("In Which year India got Indepandent?", "");
-if ( year  == 1947){
-    alert("That is Correct!");
-    alert("You are So smart!");
+// let year = prompt("In Which year India got Indepandent?", "");
+// if ( year  == 1947){
+//     alert("That is Correct!");
+//     alert("You are So smart!");
+// }
+
+// let company = prompt("Which company  created javascript?", " ");
+// (company == "Netscape")
+//  ? alert("Right!") : alert("Wrong.");
+
+let company = prompt("Which company  created javascript?", "");
+
+if (company == "Netscape"){
+    alert ("Right!");
+}else {
+    alert("wrong!");
 }
