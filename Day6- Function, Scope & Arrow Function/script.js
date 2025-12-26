@@ -42,10 +42,49 @@
 // let result = add (10, 15);
 // console.log(result);
 
-const multiply = function (a, b) {
-  return a * b;
-};
+// const multiply = function (a, b) {
+//   return a * b;
+// };
 
-let output = multiply(5, 6);
-console.log(output);
-console.log(multiply(5, 4));
+// let output = multiply(5, 6);
+// console.log(output);
+// console.log(multiply(5, 4));
+
+// const square = (n) => {
+//   return n * n;
+// };
+
+// Global Scope
+// let a = 10;
+// function show() {
+//   let a = 20;
+//   console.log(a);
+// }
+// console.log(a);
+
+// show();
+
+
+
+// function test() {
+//   let y = 5;
+//  console.log(y);
+// }
+
+// test();
+
+// function square (n){
+//     return n * n ;
+// }
+
+// let result = square(6);
+// console.log(result);
+
+// function calculateTotal(price, qty) {
+//   return price * qty;
+// }
+
+let result = calculateTotal(15, 5);
+console.log(result);
+
+ 
