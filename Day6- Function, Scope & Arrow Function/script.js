@@ -64,8 +64,6 @@
 
 // show();
 
-
-
 // function test() {
 //   let y = 5;
 //  console.log(y);
@@ -84,7 +82,19 @@
 //   return price * qty;
 // }
 
-let result = calculateTotal(15, 5);
+// let result = calculateTotal(15, 5);
+// console.log(result);
+
+function checkAge(age) {
+
+  if (age >= 18) {
+    return "You are Adult!";
+
+  }else
+  return "You are minor";
+}
+let result = checkAge(20);
 console.log(result);
 
- 
+
+

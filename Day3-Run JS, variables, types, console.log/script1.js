@@ -4,7 +4,7 @@
 // console.log(5 > 3 && 2 > 5);
 // console.log(10 === 10)||(10 === "10");
 
-// Ternary Operator Pralet
+// Ternary Operators
 
 // let age = 16;
 // let message = age >= 18 ? "Allowed" : "Not Allowed";
