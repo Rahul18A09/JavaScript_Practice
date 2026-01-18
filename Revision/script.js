@@ -188,8 +188,51 @@
 // let ans = add(5 ,6);
 // console.log(ans);
 
-sayHi();
+// sayHi();
 
-function sayHi() {
-  console.log("Hello world!");
-}
+// function sayHi() {
+//   console.log("Hello world!");
+// }
+
+// let x  = 10;
+// function test(){
+//     let y = 20;
+//     console.log(y);
+// }
+// // console.log(x);
+// test();
+
+// if (true){
+//     let a = 5;
+//     const b = 10;
+//     console.log(b);
+// }
+
+// console.log(a);
+
+// const user = {
+//     name: "Rahul",
+//     age:25,
+//     greet(){
+//         console.log("Good Morning!");
+//         console.log(user.name);
+
+//     }
+// };
+
+// user.greet();
+
+// Arrow Function & this
+
+// const obj = {
+//   name: "JS",
+//   show: function () {
+//     const inner = () => {
+//       console.log(this.name);
+//     };
+
+//     inner();
+//   },
+// };
+
+// obj.show();
