@@ -236,3 +236,72 @@
 // };
 
 // obj.show();
+
+// function outer() {
+//   let x = 10;
+
+//   function inner() {
+//     console.log(x);
+//   }
+//   inner();
+// }
+// outer();
+
+// Now Let’s Upgrade This to a CLOSURE
+
+// function outer(){
+//     let x = 10;
+
+//     return function inner(){
+//         console.log(x);
+        
+//     };
+// }
+
+// const fn  = outer();
+// fn();
+
+// function outer() {
+//   let count = 0;
+
+//   return function () {
+//     count++;
+//     console.log(count);
+
+
+//   };
+// }
+
+// const a = outer();
+// a();
+// a();
+
+
+// 13️⃣ Callback Functions
+
+// function greet (name, callback) {
+//     console.log("Hi" + name);
+//     callback();
+    
+// }   
+
+// function sayBye(){
+//     console.log("Bye");
+    
+// }
+// greet("Rahul", sayBye);
+
+// 14️⃣ Higher Order Functions (HOF)
+
+// A function that takes another function as argument OR returns a function.
+
+function calculate(a,b, operation){
+    return operation(a, b);
+}
+
+function add(x, y){
+    return x + y;
+
+}
+
+console.log(calculate(2,3,add ));
