@@ -254,7 +254,7 @@
 
 //     return function inner(){
 //         console.log(x);
-        
+
 //     };
 // }
 
@@ -268,7 +268,6 @@
 //     count++;
 //     console.log(count);
 
-
 //   };
 // }
 
@@ -276,18 +275,17 @@
 // a();
 // a();
 
-
 // 13️⃣ Callback Functions
 
 // function greet (name, callback) {
 //     console.log("Hi" + name);
 //     callback();
-    
-// }   
+
+// }
 
 // function sayBye(){
 //     console.log("Bye");
-    
+
 // }
 // greet("Rahul", sayBye);
 
@@ -295,13 +293,119 @@
 
 // A function that takes another function as argument OR returns a function.
 
-function calculate(a,b, operation){
-    return operation(a, b);
-}
+// function calculate(a,b, operation){
+//     return operation(a, b);
+// }
 
-function add(x, y){
-    return x + y;
+// function add(x, y){
+//     return x + y;
 
-}
+// }
 
-console.log(calculate(2,3,add ));
+// console.log(calculate(2,3,add ));
+
+// Array Methods
+
+// map() → transform array
+
+// const nums  = [1,2,3];
+
+// const double = nums.map(n => n*2);
+// console.log(double);
+
+// filter() → condition
+
+// const nums = [1,2,3,4,5,6];
+
+// const even = nums.filter(n => n % 2 === 0);
+// console.log(even);
+
+// reduce() → single value
+
+// const nums = [1,2,3,4,5];
+
+// const sum  = nums.reduce((acc, curr) => acc + curr, 0);
+// console.log(sum);
+
+// const arr = [1, 2, 3, 4, 5, 6];
+
+// const result = arr.map(n => n*2)
+//    const result = arr.filter(n => n > 4)
+// const result = arr.reduce((a, b) => a + b, 0);
+
+// console.log(result);
+
+// const nums = [10,20,30];
+
+// const out = nums.reduce((acc, curr) => acc + curr , 5);
+
+// console.log(out);
+
+// promise
+
+// const promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve("Success");
+//     }, 1000);
+// });
+
+// promise.then(res => console.log(res));
+// promise.catch(reject => console.log(reject));
+
+// console.log("Promise started");
+// const promise = new Promise((resolve, reject) => {
+
+//   setTimeout(() => {
+
+//     let success = true;
+
+//     if (success) {
+//       resolve("Data received");
+//     }else {
+//         reject("Data not received");
+//     }
+//   }, 2000);
+// });
+
+
+// promise.then((res) => console.log(res)).catch
+// ((err) => console.log(err));
+
+
+// Important Array Methods (INTERVIEW MUST 🔥)
+
+// let fruits = ["apple", "banana", "mango"];
+
+// console.log(fruits[2]);
+
+// fruits[1] = "orange";
+// fruits[2] = "grapes";
+
+// fruits.push("grapes");
+// fruits.pop();
+// fruits.unshift("kiwi");
+// fruits.shift();
+// console.log(fruits.length);
+
+
+
+// Looping Arrays
+// let fruits = ["apple", "banana", "mango"];
+
+
+// for (let i = 0;  i < fruits.length;i++ ){
+//     console.log(fruits[i]);
+// }
+
+// fruits.forEach(fruits => {
+//     console.log(fruits);
+    
+// })
+
+
+let arr = [1 ,2 ,3];
+arr.push(4);
+arr.shift();
+console.log(arr);
+
+
