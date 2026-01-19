@@ -523,13 +523,15 @@
 // console.log(a);
 // console.log(rest);
 
-function test(a, ...rest){
-    console.log(a);
-    console.log(rest);
+// function test(a, ...rest){
+//     console.log(a);
+//     console.log(rest);
  
-}
+// }
 
-test(10, 20,30,40);
+// test(10, 20,30,40);
+
+
 
 
 
