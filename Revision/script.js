@@ -349,6 +349,9 @@
 //     }, 1000);
 // });
 
+
+
+
 // promise.then(res => console.log(res));
 // promise.catch(reject => console.log(reject));
 
@@ -403,9 +406,46 @@
 // })
 
 
-let arr = [1 ,2 ,3];
-arr.push(4);
-arr.shift();
-console.log(arr);
+// let arr = [1 ,2 ,3];
+// arr.push(4);
+// arr.shift();
+// console.log(arr);
+
+
+// Object
+
+
+// let user = {
+//     name: "Rahul",
+//     age: 26,
+//     isDeveloper:true
+// };
+
+// user.city = "Navsari";
+// user.age = 25;
+// delete user.isDeveloper;
+// console.log(user.name, user.age, user.isDeveloper);
+
+
+// console.log(user["age"]);
+// console.log(user);
+
+
+// Object With function
+
+
+// let person = {
+//     name: "Rahul",
+//     greet(){
+//         console.log("Hello" +" "+  this.name);
+        
+//     }
+// };
+
+// person.greet();
+
+
+
+
 
 
