@@ -349,9 +349,6 @@
 //     }, 1000);
 // });
 
-
-
-
 // promise.then(res => console.log(res));
 // promise.catch(reject => console.log(reject));
 
@@ -370,10 +367,8 @@
 //   }, 2000);
 // });
 
-
 // promise.then((res) => console.log(res)).catch
 // ((err) => console.log(err));
-
 
 // Important Array Methods (INTERVIEW MUST 🔥)
 
@@ -390,11 +385,8 @@
 // fruits.shift();
 // console.log(fruits.length);
 
-
-
 // Looping Arrays
 // let fruits = ["apple", "banana", "mango"];
-
 
 // for (let i = 0;  i < fruits.length;i++ ){
 //     console.log(fruits[i]);
@@ -402,18 +394,15 @@
 
 // fruits.forEach(fruits => {
 //     console.log(fruits);
-    
-// })
 
+// })
 
 // let arr = [1 ,2 ,3];
 // arr.push(4);
 // arr.shift();
 // console.log(arr);
 
-
 // Object
-
 
 // let user = {
 //     name: "Rahul",
@@ -426,23 +415,122 @@
 // delete user.isDeveloper;
 // console.log(user.name, user.age, user.isDeveloper);
 
-
 // console.log(user["age"]);
 // console.log(user);
 
-
 // Object With function
-
 
 // let person = {
 //     name: "Rahul",
 //     greet(){
 //         console.log("Hello" +" "+  this.name);
-        
+
 //     }
 // };
 
 // person.greet();
+
+// Looping Objects
+
+// for...in
+
+// for (let key in user){
+//     console.log(key, user[key]);
+
+// }
+
+// Object Methods (INTERVIEW USEFUL)
+
+// let user = {
+//   name: "Rahul",
+//   age: 26,
+//   isDeveloper: true,
+// };
+
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
+
+// Array of Objects
+
+// const users = [
+//     {name: "A", age:20},
+//     {name: "B", age:22},
+//     {name: "C", age:26},
+//     {name: "D", age:30},
+// ];
+
+// const adults = users.filter(user => user.age >= 25);
+// console.log(adults);
+
+// const user = {
+//     name: "Js",
+//     skills: ["HTML", "CSS", "JS"]
+// };
+
+// user.skills.push("React");
+// console.log(user.skills);
+
+
+// SPREAD OPERATOR (...)
+
+// const nums = [1 ,2 ,3];
+// const newNums = [...nums, 4 ,5];
+
+// console.log(newNums);
+
+// const fruits = ["apple", "banana", "grapes" ]
+
+// const newfruits  = [...fruits,"mangoes", "papaya"]
+
+// console.log(newfruits);
+
+// const a  = [1 ,2];
+// const b = [...a];
+
+// b.push(3,4,5);
+// console.log(b);
+
+
+// Spread with Object
+
+// const user ={name:"Rahul", age: 25};
+// const newuser = {...user, city:"Navsari"};
+// console.log(newuser);
+
+
+
+// REST OPERATOR (...)
+
+// Rest in Function Parameters
+// function sum(...numbers){
+//     console.log(numbers);
+    
+// }
+// sum(1,2,3,4);
+
+// const arr = [10, 20, 30,40, 50];
+
+// const[first,second, ...rest]= arr;
+
+// console.log(first, second);
+// console.log(rest);
+
+
+// const obj = {a: 1, b: 2, c: 3};
+// const {a, ...rest} = obj;
+
+// console.log(a);
+// console.log(rest);
+
+function test(a, ...rest){
+    console.log(a);
+    console.log(rest);
+ 
+}
+
+test(10, 20,30,40);
+
 
 
 
