@@ -343,6 +343,24 @@
 
 // promise
 
+const mypromise = new Promise((resolve, reject) => {
+  let success = true;
+
+  if (success) {
+    resolve("Task completed successfully");
+  } else {
+    reject("Task failed");
+  }
+});
+
+mypromise
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
 // const promise = new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //         resolve("Success");
@@ -471,7 +489,6 @@
 // user.skills.push("React");
 // console.log(user.skills);
 
-
 // SPREAD OPERATOR (...)
 
 // const nums = [1 ,2 ,3];
@@ -491,21 +508,18 @@
 // b.push(3,4,5);
 // console.log(b);
 
-
 // Spread with Object
 
 // const user ={name:"Rahul", age: 25};
 // const newuser = {...user, city:"Navsari"};
 // console.log(newuser);
 
-
-
 // REST OPERATOR (...)
 
 // Rest in Function Parameters
 // function sum(...numbers){
 //     console.log(numbers);
-    
+
 // }
 // sum(1,2,3,4);
 
@@ -516,7 +530,6 @@
 // console.log(first, second);
 // console.log(rest);
 
-
 // const obj = {a: 1, b: 2, c: 3};
 // const {a, ...rest} = obj;
 
@@ -526,16 +539,7 @@
 // function test(a, ...rest){
 //     console.log(a);
 //     console.log(rest);
- 
+
 // }
 
 // test(10, 20,30,40);
-
-
-
-
-
-
-
-
-
