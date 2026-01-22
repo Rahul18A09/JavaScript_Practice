@@ -543,3 +543,11 @@ mypromise
 // }
 
 // test(10, 20,30,40);
+
+
+function demo(a, ...rest) {
+  console.log(a);
+  console.log(rest);
+}
+
+demo(10, 20, 30, 40);
