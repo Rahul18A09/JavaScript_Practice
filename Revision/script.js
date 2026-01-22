@@ -551,3 +551,7 @@ function demo(a, ...rest) {
 }
 
 demo(10, 20, 30, 40);
+
+let arr = [20, 30, 40];
+
+console.log(10, ...arr);
