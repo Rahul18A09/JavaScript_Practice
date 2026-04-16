@@ -559,3 +559,7 @@ console.log(10, ...arr);
 1️⃣ Hoisting
 📌 Definition
 Hoisting means JavaScript moves variable and function declarations to the top of their scope before execution
+
+
+console.log(a); 
+var a = 10;
