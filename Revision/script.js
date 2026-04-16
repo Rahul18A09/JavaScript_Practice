@@ -555,3 +555,7 @@ demo(10, 20, 30, 40);
 let arr = [20, 30, 40];
 
 console.log(10, ...arr);
+
+1️⃣ Hoisting
+📌 Definition
+Hoisting means JavaScript moves variable and function declarations to the top of their scope before execution
