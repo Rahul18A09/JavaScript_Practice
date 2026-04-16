@@ -1,3 +1,5 @@
+
+
 // var name = "Rahul";
 // var name = "Asha";
 // re-declared
@@ -578,3 +580,12 @@ Scope
 1) Global scope 
 2) Function Scope
 3) Block Scope 
+
+1. Global Scope
+JavaScript
+let name = "Rahul";
+
+function show() {
+  console.log(name);
+}
+Accessible everywhere.
