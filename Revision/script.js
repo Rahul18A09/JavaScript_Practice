@@ -572,3 +572,9 @@ Why Closures Used?
 ✅ Data privacy
 ✅ Function factories
 ✅ React hooks concept base
+
+
+Scope
+1) Global scope 
+2) Function Scope
+3) Block Scope 
