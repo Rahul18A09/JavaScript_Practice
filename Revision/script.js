@@ -567,3 +567,8 @@ var a = 10;
 2️⃣ Closures
 📌 Definition
 A closure is when a function remembers variables from its outer scope even after the outer function finishes execution.
+
+Why Closures Used?
+✅ Data privacy
+✅ Function factories
+✅ React hooks concept base
