@@ -1,4 +1,4 @@
-ee
+inee
 
 // var name = "Rahul";
 // var name = "Asha";
@@ -608,3 +608,17 @@ setInterval
 DOM events
 4️⃣ Event Loop
 Moves tasks from queues → Call Stack when stack is empty
+
+Example 
+
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Timeout");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Promise");
+});
+
+console.log("End");
