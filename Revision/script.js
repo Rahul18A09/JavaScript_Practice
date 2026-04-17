@@ -1,4 +1,4 @@
-
+ee
 
 // var name = "Rahul";
 // var name = "Asha";
@@ -589,3 +589,6 @@ function show() {
   console.log(name);
 }
 Accessible everywhere.
+
+1)Event loop 
+The Event Loop is a mechanism in JavaScript that allows it to handle asynchronous operations even though JavaScript is single-threaded.
