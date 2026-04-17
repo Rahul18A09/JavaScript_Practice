@@ -592,3 +592,19 @@ Accessible everywhere.
 
 1)Event loop 
 The Event Loop is a mechanism in JavaScript that allows it to handle asynchronous operations even though JavaScript is single-threaded.
+
+⚙️ How It Works (Step-by-step)
+1️⃣ Call Stack
+Executes synchronous code first.
+2️⃣ Microtask Queue
+Contains:
+Promises (.then, catch, finally)
+queueMicrotask()
+Runs before callback queue
+3️⃣ Callback Queue
+Contains:
+setTimeout
+setInterval
+DOM events
+4️⃣ Event Loop
+Moves tasks from queues → Call Stack when stack is empty
