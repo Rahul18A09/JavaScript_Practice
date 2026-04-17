@@ -622,3 +622,5 @@ Promise.resolve().then(() => {
 });
 
 console.log("End");
+
+Promises run before setTimeout because Microtask Queue has higher priority than Callback Queue.
